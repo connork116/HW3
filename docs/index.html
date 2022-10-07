@@ -1,0 +1,201 @@
+<!--
+Connor King
+CPSC 332 Fall 2022
+HW 2
+Last Modified: 10-7-2022
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Introduction</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style>
+        .header {
+            background-color: gainsboro;
+        }
+
+        #container {
+            display: flex;
+        }
+
+        .skillType {
+            font-weight: bold;
+        }
+
+        h2 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        tr:nth-child(even) {
+            background: white;
+        }
+
+        td:nth-child(odd) {
+            background: lightgray;
+        }
+
+        .education {
+            font-style: italic;
+        }
+
+        .degree {
+            color: royalblue;
+        }
+
+        .hobby {
+            font-size: 14pt;
+            font-family: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif";
+            padding: 10px;
+        }
+
+        #hyperlinkImg {
+            border: 3px solid black;
+            padding: 20px;
+        }
+
+        #right {
+            background-color: lightgoldenrodyellow;
+        }
+
+        #left {
+            background-color: lightskyblue;
+        }
+
+        #profileImage {
+            border: 3px solid black;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <a href="index.html">Introduction</a> |
+        <a href="education.html"> Education and Qualifications</a> |
+        <a href="hobbies.html"> Interests and Hobbies</a> |
+        <a href="summary.html"> Career Summary</a>
+    </div>
+
+    <div id="container">
+
+        <div id="left">
+            <h2>Introduction</h2>
+            <p>My name is Connor King and I am a Junior at Gonzaga University. I am studying Business Administration
+                with a
+                concentration in management information systems with a minor in computer science. I am passionate about
+                the
+                integration of technology and business.
+
+                <a href="#skills">See my skills</a>
+            </p>
+            <img src="profilepic.JPG" width="200" alt="A headshot of me" id="profileImage">
+        </div>
+
+        <div id="right">
+            <section>
+                <p id="skills">
+                <h2>Core Skills</h2>
+                <ul>
+                    <li class="skillType">Languages</li>
+                    <ul>
+                        <li>Python</li>
+                        <li>SQL</li>
+                        <li>HTML/CSS</li>
+                        <li>Java</li>
+                        <li>C++</li>
+                    </ul>
+                    <li class="skillType">Software</li>
+                    <ul>
+                        <li>Tableau</li>
+                        <li>Microsoft Office</li>
+                        <li>Jupyter Lab</li>
+                        <li>Visual Studio</li>
+                    </ul>
+                    <li class="skillType">Tools</li>
+                    <ul>
+                        <li>Git/GitHub</li>
+                        <li>Jupyter Notebook</li>
+                        <li>LaTeX/Markdow</li>
+                    </ul>
+                </ul>
+                </p>
+            </section>
+
+            <section>
+                <h2>Career Summary</h2>
+                <table>
+                    <tr>
+                        <th>Data Visualization Apprentice</th>
+                        <th>Intern</th>
+                    </tr>
+                    <tr>
+                        <td>Assisted a Business Intelligence Architect with data engineering implementation,
+                            visualization
+                            projects,
+                            and financial
+                            reporting. The visualizations I assisted with provided insights that weren't otherwise
+                            reportable
+                            through the company's ERP
+                            system to financial executives.</td>
+                        <td>
+                            Worked on a team that consults with large technology companies. I helped manage company
+                            relationships
+                            with members
+                            of the California state government and was responsible for reporting to clients on
+                            technology-related
+                            bills being passed
+                            through the state legislature.
+                        </td>
+                    </tr>
+                </table>
+            </section>
+
+            <section>
+                <h2>Education</h2>
+                <Table>
+                    <tr>
+                        <th class="degree">High School Diploma</th>
+                        <th class="degree">Bachelor of Business Administration</th>
+                    </tr>
+                    <tr>
+                        <td class="education">Jesuit High School</td>
+                        <td class="education">Gonzaga University<br> Concentration: Management Information Systems,
+                            Minor:
+                            Computer Science
+                        </td>
+                    </tr>
+                </Table>
+            </section>
+
+            <section>
+                <h2>Interests and Hobbies</h2>
+                <p>
+                <ol>
+                    <li class="hobby">Photography <br>
+                        <img src="camera.jpg" alt="A photo of a camera" width="200"></a>
+                    </li>
+                    <li class="hobby">Watching Premier League Soccer <br>
+                        <a href="https://www.premierleague.com/" id="hyperlinkImg"><img src="premierleaguelogo.png"
+                                alt="The Premier League Logo" width="200"></a>
+                    </li>
+                    <li class="hobby">Playing Cards <br>
+                        <img src="cards.jfif" alt="A photo of playing cards" width="200"></a>
+                    </li>
+                </ol>
+                </p>
+            </section>
+
+        </div>
+
+
+
+
+    </div>
+
+</body>
+
+</html>
